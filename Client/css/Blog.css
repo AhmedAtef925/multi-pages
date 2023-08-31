@@ -1,0 +1,33 @@
+/*start the Blog*/
+.Blog
+{
+    overflow: hidden;
+    background-color: #eee;
+    position: relative;
+    margin-top: 5px;
+    padding: 70px 15px 10px 15px;
+}
+
+.Blog .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Blog-link 
+{
+    text-align: left;
+}
+.Blog-link a{
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+}
+.Blog-link a:hover{
+    color: orange;
+}
+.Blog-word
+{
+    font-size: 48px;
+    text-align: right;
+
+}
+/*end the Blog*/

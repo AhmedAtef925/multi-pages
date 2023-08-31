@@ -1,0 +1,93 @@
+/*start the contactUs*/
+
+.contactUs
+{
+    overflow: hidden;
+    background-color: #eee;
+    position: relative;
+    margin-top: 5px;
+    padding: 64px 15px 10px 15px;
+}
+
+.contactUs .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactUs-link 
+{
+    text-align: left;
+}
+.contactUs-link a{
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+}
+.contactUs-link a:hover{
+    color: orange;
+}
+.contactUs-word
+{
+    font-size: 48px;
+    text-align: right;
+
+}
+/*start the contactUs-cont*/
+.contactus-cont{
+    direction: rtl;
+    padding: 10px 3px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.contactus-right{
+background-color: #eee;
+padding: 35px 30px  100px 5px;
+}
+.contactus-cont ul{
+    list-style: none;
+}
+.contactus-left{
+    background-color: #eee;
+    padding: 35px 15px  70px 15px;
+}
+.contactus-left input{
+    padding: 14px 17px;
+    width:100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.contactus-left textarea{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    height: 132px;
+    width:100%;
+    padding: 14px 17px;
+    border: none;
+}
+.contactus-buttom button
+{
+    margin-left: 20px;
+    margin-right: 0;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100px;
+    padding: 15px;
+    background-color: orange;
+    border: none;
+    transition: all 1s ease-in-out;
+}
+.contactus-buttom button a{
+    color: black;
+    text-decoration: none;
+}
+.contactus-buttom button:hover{
+    background-color:rgb(138, 217, 223)
+}
+.contactus-buttom p{
+    display: inline-block;
+
+}
+/*end the contactUs-cont*/
+
+/*end the contactUs*/

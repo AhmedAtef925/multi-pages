@@ -1,0 +1,144 @@
+
+.project
+{
+    overflow: hidden;
+    background-color: #eee;
+
+    position: relative;
+    margin-top: 5px;
+    padding: 64px 15px 20px 15px;
+}
+.project .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-link 
+{
+    text-align: left;
+}
+.project-link a{
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+}
+.project-link a:hover{
+    color: orange;
+}
+
+.project-word
+{
+    font-size: 48px;
+    text-align: right;
+
+}
+/*end the project*/
+
+/*start the project-img-link*/
+.project-cont{
+    position: relative;
+}
+.prject-img
+{
+    direction: rtl;
+    padding: 30px 0px ;
+}
+.project-img-div
+{
+    margin: 20px 3px;
+}
+.project-img-div a
+{
+    text-decoration: none;
+}
+
+
+.project-layer{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(255, 188, 4,0.6);
+    transition: all  1s ease-in-out;
+
+}
+.project-layer-hover{
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.project-cont:hover .project-layer{
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.prject-background
+{
+    height: 182px;
+}
+.img-1
+{
+    background-image: url(../img/single-project-bg-1.jpg);
+    background-size: cover;
+}   
+.img-2
+{
+    background-image: url(../img/single-project-bg-2.jpg);
+    background-size: cover;
+}
+.img-3
+{
+    background-image: url(../img/single-project-bg-3.jpg);
+    background-size: cover;
+}
+.img-4
+{
+    background-image: url(../img/single-project-bg-4.jpg);
+    background-size: cover;
+}
+.img-5
+{
+    background-image: url(../img/single-project-bg-5.jpg);
+    background-size: cover;
+}
+.img-6
+{
+    background-image: url(../img/single-project-bg-6.jpg);
+    background-size: cover;
+}
+
+
+.project-description
+{
+    background: #f1f1f1 none repeat scroll 0 0;
+    color: #333;
+    font-size: 14px;
+    padding: 16px 10px;
+    text-transform: capitalize;
+    text-align: right;
+    text-decoration: none;
+}
+.load-more
+{
+    color: black;
+    background-color: orange;
+    padding: 15px 16px;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 1s ease-in-out;
+}
+.load-more:hover{
+    background-color: #eeee;
+}
+/*end the project-img-link*/

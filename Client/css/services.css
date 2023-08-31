@@ -1,0 +1,81 @@
+/*start the services*/
+
+.services
+{
+    overflow: hidden;
+    background-color: #eee;
+    height: 130px;
+    position: relative;
+    margin-top: 5px;
+    padding: 64px 15px 10px 15px;
+}
+
+.services .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services-link
+{ 
+    text-align: left;
+}
+.services-link a{
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+}
+.services-link a:hover{
+    color: orange;
+}
+
+.services-word
+{
+    font-size: 48px;
+    text-align: right;
+
+}
+/*end the services*/
+.top-news
+{
+    background-color: #eeee;
+    padding: 40px 3px;
+    text-align: right;
+    direction: rtl;
+}
+.Re-construction{
+    margin-bottom: 70px;
+
+}
+.topnews-img img 
+{
+   width: 100%;
+   height: 100%;
+}
+.top-news-cont{
+    margin: 5px 0px;
+    padding: 25px 10px;
+    background-color: rgb(138, 217, 223);
+}
+.top-news-button{
+    transition: all 1s ease-in-out;
+    outline: 0;
+    border: none;
+}
+.top-news-button:hover{
+    background-color: #eeee;
+}
+.testimonials 
+{
+    background-color: #eee;;
+}
+/*end the services*/
+/*start the our-client*/
+.our-client
+{
+    direction: rtl;
+    padding: 60px 5px;
+}
+.our-client-img
+{
+    background-color: #eee;
+}
+/*end the our-client*/
